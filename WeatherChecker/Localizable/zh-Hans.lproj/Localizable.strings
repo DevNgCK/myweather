@@ -1,0 +1,8 @@
+/* 
+  Localizable.strings
+  WeatherChecker
+
+  Created by Gavin Ng on 18/7/2021.
+  
+*/
+"searchBar.hints" = "城市 / 邮区编号";

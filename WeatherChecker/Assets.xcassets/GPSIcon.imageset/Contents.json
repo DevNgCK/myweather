@@ -1,0 +1,62 @@
+{
+  "images" : [
+    {
+      "filename" : "icons8-navigation-32.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "icons8-navigation-64.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "icons8-navigation-96.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    },
+    {
+      "filename" : "icons8-navigation-32 (1).png",
+      "idiom" : "universal",
+      "locale" : "en-AU",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "icons8-navigation-64 (1).png",
+      "idiom" : "universal",
+      "locale" : "en-AU",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "icons8-navigation-96 (1).png",
+      "idiom" : "universal",
+      "locale" : "en-AU",
+      "scale" : "3x"
+    },
+    {
+      "filename" : "icons8-navigation-32 copy.png",
+      "idiom" : "universal",
+      "locale" : "en-CA",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "icons8-navigation-64 copy.png",
+      "idiom" : "universal",
+      "locale" : "en-CA",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "icons8-navigation-96 copy.png",
+      "idiom" : "universal",
+      "locale" : "en-CA",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "localizable" : true
+  }
+}

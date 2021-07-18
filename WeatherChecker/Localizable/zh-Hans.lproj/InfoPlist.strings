@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  WeatherChecker
+
+  Created by Gavin Ng on 18/7/2021.
+  
+*/
+
+"CFBundleName" = "我的天氣";
