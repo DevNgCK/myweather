@@ -144,6 +144,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate, UISearchBarDe
             self.updateWeatherDataToUI(data: data)
         } else if (data.cod == "404") {
             showMessageDialog(title: "Error", msg: "Please ensure \"City Name\" / \"Zip Code\" is correct!", butMsg: "OK")
+        } else if (data.cod == "400") {
+            showMessageDialog(title: "Error", msg: "Please ensure \"Zip Code\" is valid !", butMsg: "OK")
         } else if (data.cod == "0") {
             showMessageDialog(title: "Error", msg: "Cannot connect to the open weather server", butMsg: "OK")
         }

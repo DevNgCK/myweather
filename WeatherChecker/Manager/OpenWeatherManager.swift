@@ -55,6 +55,8 @@ class OpenWeatherManager {
                                         lat: json["coord"]["lat"].double!, lon: json["coord"]["lon"].double!))
                     } else if (json["cod"].string == "404") {
                         completion(CurrentWeatherData(cod: "404"))
+                    } else if (json["cod"].string == "400") {
+                        completion(CurrentWeatherData(cod: "400"))
                     }
                 } else {
                     completion(CurrentWeatherData(cod: "0"))
@@ -81,6 +83,8 @@ class OpenWeatherManager {
                                         lat: json["coord"]["lat"].double!, lon: json["coord"]["lon"].double!))
                     } else if (json["cod"].string == "404") {
                         completion(CurrentWeatherData(cod: "404"))
+                    } else if (json["cod"].string == "400") {
+                        completion(CurrentWeatherData(cod: "400"))
                     }
                 } else {
                     completion(CurrentWeatherData(cod: "0"))
